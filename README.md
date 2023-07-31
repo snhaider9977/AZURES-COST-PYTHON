@@ -7,8 +7,7 @@ This repository contains a Python script that automates Azure cost reporting by 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Prerequisites
 
@@ -92,3 +91,21 @@ email_recipients = ['recipient1@example.com', 'recipient2@example.com']
 <li>Run the script using <code>python azure_cost_report.py</code>.</li>
 <li>The script will fetch the cost data and send the cost report via email to the specified recipients.</li>
 </ol>
+
+
+
+#Configuration
+
+The script allows you to configure the following parameters:
+<ul>
+<li><code>subscription_id</code>: Your Azure subscription ID.</li>
+<li><code>tenant_id</code>: Your Azure AD tenant ID.</li>
+<li><code>client_id</code>: Your Azure AD application/client ID.</li>
+<li><code>client_secret</code>: Your Azure AD application/client secret.</li>
+<li><code>monthly_budget</code>: The monthly budget amount in your local currency (e.g., INR).</li>
+<li><code>email_sender</code>: The email address from which the cost report will be sent.</li>
+<li><code>email_password</code>: The password for the email sender account.</li>
+<li><code>email_smtp_server</code>: The SMTP server address for the sender email account.</li>
+<li><code>email_smtp_port</code>: The SMTP port number for the sender email account.</li>
+<li><code>email_recipients</code>: A list of email addresses to which the cost report will be sent.</li>
+</ul>
