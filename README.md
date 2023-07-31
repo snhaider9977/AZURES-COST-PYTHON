@@ -109,3 +109,9 @@ The script allows you to configure the following parameters:
 <li><code>email_smtp_port</code>: The SMTP port number for the sender email account.</li>
 <li><code>email_recipients</code>: A list of email addresses to which the cost report will be sent.</li>
 </ul>
+
+
+#OUTPUT
+
+
+![Image](./COST.png)
