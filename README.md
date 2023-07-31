@@ -1,4 +1,5 @@
 # AZURES-COST-PYTHON
+
 # Automating Azure Cost Reporting with Python
 
 This repository contains a Python script that automates Azure cost reporting by fetching cost usage data from the Azure Management API and sending a daily cost report via email.
