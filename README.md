@@ -1,4 +1,4 @@
-markdown
+
 
 # Automating Azure Cost Reporting with Python
 
